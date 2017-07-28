@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2D2D9D885F34B861DD4245 /* Pods_Purring_CatsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BB332C0699CE07C57204D2 /* Pods_Purring_CatsTests.framework */; };
 		22366A6E1F2AE95500A98F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22366A6D1F2AE95500A98F5F /* AppDelegate.swift */; };
 		22366A701F2AE95500A98F5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22366A6F1F2AE95500A98F5F /* ViewController.swift */; };
 		22366A731F2AE95500A98F5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22366A711F2AE95500A98F5F /* Main.storyboard */; };
@@ -15,6 +16,13 @@
 		22366A7B1F2AE95500A98F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22366A791F2AE95500A98F5F /* LaunchScreen.storyboard */; };
 		22366A861F2AE95500A98F5F /* Purring_CatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22366A851F2AE95500A98F5F /* Purring_CatsTests.swift */; };
 		22366A911F2AE95500A98F5F /* Purring_CatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22366A901F2AE95500A98F5F /* Purring_CatsUITests.swift */; };
+		22366A9F1F2AEBC400A98F5F /* Grumpy Cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22366A9E1F2AEBC400A98F5F /* Grumpy Cat.jpg */; };
+		22366AA51F2AEFA100A98F5F /* Cat-noises.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22366AA11F2AEFA100A98F5F /* Cat-noises.mp3 */; };
+		22366AA61F2AEFA100A98F5F /* Cute-kitty-meowing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22366AA21F2AEFA100A98F5F /* Cute-kitty-meowing.mp3 */; };
+		22366AA71F2AEFA100A98F5F /* Kitty-noises.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22366AA31F2AEFA100A98F5F /* Kitty-noises.mp3 */; };
+		22366AA81F2AEFA100A98F5F /* Meowing-sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 22366AA41F2AEFA100A98F5F /* Meowing-sound.wav */; };
+		24285F42804C2B0957FB3603 /* Pods_Purring_CatsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFDD360E14BC0926C18C6033 /* Pods_Purring_CatsUITests.framework */; };
+		27640CE0FE292AD614B2CFED /* Pods_Purring_Cats.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9243B8122DA2BA9BD0B2D8A1 /* Pods_Purring_Cats.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ED952C81E51F2C3E954F84E /* Pods-Purring Cats.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purring Cats.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purring Cats/Pods-Purring Cats.release.xcconfig"; sourceTree = "<group>"; };
 		22366A6A1F2AE95500A98F5F /* Purring Cats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Purring Cats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22366A6D1F2AE95500A98F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22366A6F1F2AE95500A98F5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,19 @@
 		22366A8C1F2AE95500A98F5F /* Purring CatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Purring CatsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22366A901F2AE95500A98F5F /* Purring_CatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purring_CatsUITests.swift; sourceTree = "<group>"; };
 		22366A921F2AE95500A98F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22366A9E1F2AEBC400A98F5F /* Grumpy Cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grumpy Cat.jpg"; sourceTree = SOURCE_ROOT; };
+		22366AA11F2AEFA100A98F5F /* Cat-noises.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Cat-noises.mp3"; path = "Sounds/Cat-noises.mp3"; sourceTree = SOURCE_ROOT; };
+		22366AA21F2AEFA100A98F5F /* Cute-kitty-meowing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Cute-kitty-meowing.mp3"; path = "Sounds/Cute-kitty-meowing.mp3"; sourceTree = SOURCE_ROOT; };
+		22366AA31F2AEFA100A98F5F /* Kitty-noises.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Kitty-noises.mp3"; path = "Sounds/Kitty-noises.mp3"; sourceTree = SOURCE_ROOT; };
+		22366AA41F2AEFA100A98F5F /* Meowing-sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Meowing-sound.wav"; path = "Sounds/Meowing-sound.wav"; sourceTree = SOURCE_ROOT; };
+		43447D61BC0233B6F294ADAD /* Pods-Purring Cats.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purring Cats.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Purring Cats/Pods-Purring Cats.debug.xcconfig"; sourceTree = "<group>"; };
+		9243B8122DA2BA9BD0B2D8A1 /* Pods_Purring_Cats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purring_Cats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2092A85EFAE1CAF2E5727A1 /* Pods-Purring CatsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purring CatsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purring CatsUITests/Pods-Purring CatsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFDD360E14BC0926C18C6033 /* Pods_Purring_CatsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purring_CatsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD8A4FD971300EB8C6025A44 /* Pods-Purring CatsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purring CatsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Purring CatsUITests/Pods-Purring CatsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC480F20F21D5EB1B09E37E5 /* Pods-Purring CatsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purring CatsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purring CatsTests/Pods-Purring CatsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E4BB332C0699CE07C57204D2 /* Pods_Purring_CatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purring_CatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB984B04B1179C5688ADE83 /* Pods-Purring CatsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purring CatsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Purring CatsTests/Pods-Purring CatsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27640CE0FE292AD614B2CFED /* Pods_Purring_Cats.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2D2D9D885F34B861DD4245 /* Pods_Purring_CatsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24285F42804C2B0957FB3603 /* Pods_Purring_CatsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +108,8 @@
 				22366A841F2AE95500A98F5F /* Purring CatsTests */,
 				22366A8F1F2AE95500A98F5F /* Purring CatsUITests */,
 				22366A6B1F2AE95500A98F5F /* Products */,
+				8CE549B4412997CDE90DBF76 /* Pods */,
+				E259491BA66A1D3ED553D93D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +126,12 @@
 		22366A6C1F2AE95500A98F5F /* Purring Cats */ = {
 			isa = PBXGroup;
 			children = (
+				22366AA01F2AEF2600A98F5F /* Sounds */,
 				22366A6D1F2AE95500A98F5F /* AppDelegate.swift */,
 				22366A6F1F2AE95500A98F5F /* ViewController.swift */,
 				22366A711F2AE95500A98F5F /* Main.storyboard */,
 				22366A771F2AE95500A98F5F /* Assets.xcassets */,
+				22366A9E1F2AEBC400A98F5F /* Grumpy Cat.jpg */,
 				22366A791F2AE95500A98F5F /* LaunchScreen.storyboard */,
 				22366A7C1F2AE95500A98F5F /* Info.plist */,
 				22366A741F2AE95500A98F5F /* Purring_Cats.xcdatamodeld */,
@@ -128,6 +157,40 @@
 			path = "Purring CatsUITests";
 			sourceTree = "<group>";
 		};
+		22366AA01F2AEF2600A98F5F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				22366AA11F2AEFA100A98F5F /* Cat-noises.mp3 */,
+				22366AA21F2AEFA100A98F5F /* Cute-kitty-meowing.mp3 */,
+				22366AA31F2AEFA100A98F5F /* Kitty-noises.mp3 */,
+				22366AA41F2AEFA100A98F5F /* Meowing-sound.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		8CE549B4412997CDE90DBF76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43447D61BC0233B6F294ADAD /* Pods-Purring Cats.debug.xcconfig */,
+				0ED952C81E51F2C3E954F84E /* Pods-Purring Cats.release.xcconfig */,
+				ECB984B04B1179C5688ADE83 /* Pods-Purring CatsTests.debug.xcconfig */,
+				DC480F20F21D5EB1B09E37E5 /* Pods-Purring CatsTests.release.xcconfig */,
+				BD8A4FD971300EB8C6025A44 /* Pods-Purring CatsUITests.debug.xcconfig */,
+				A2092A85EFAE1CAF2E5727A1 /* Pods-Purring CatsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E259491BA66A1D3ED553D93D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9243B8122DA2BA9BD0B2D8A1 /* Pods_Purring_Cats.framework */,
+				E4BB332C0699CE07C57204D2 /* Pods_Purring_CatsTests.framework */,
+				AFDD360E14BC0926C18C6033 /* Pods_Purring_CatsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22366A951F2AE95500A98F5F /* Build configuration list for PBXNativeTarget "Purring Cats" */;
 			buildPhases = (
+				8F516CF06C7AB82CAB494BC2 /* [CP] Check Pods Manifest.lock */,
 				22366A661F2AE95500A98F5F /* Sources */,
 				22366A671F2AE95500A98F5F /* Frameworks */,
 				22366A681F2AE95500A98F5F /* Resources */,
+				54CFB29E949AEA91CA08E7C6 /* [CP] Embed Pods Frameworks */,
+				B2DB086D458EE0D6F8E59973 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22366A981F2AE95500A98F5F /* Build configuration list for PBXNativeTarget "Purring CatsTests" */;
 			buildPhases = (
+				5DBF920A4BB62093F61D9C55 /* [CP] Check Pods Manifest.lock */,
 				22366A7D1F2AE95500A98F5F /* Sources */,
 				22366A7E1F2AE95500A98F5F /* Frameworks */,
 				22366A7F1F2AE95500A98F5F /* Resources */,
+				35B3F5B917834FA86D2F648C /* [CP] Embed Pods Frameworks */,
+				DE4F40D4E23AEADE2E97C1B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22366A9B1F2AE95500A98F5F /* Build configuration list for PBXNativeTarget "Purring CatsUITests" */;
 			buildPhases = (
+				5E31BE043B9C4F543BEB4790 /* [CP] Check Pods Manifest.lock */,
 				22366A881F2AE95500A98F5F /* Sources */,
 				22366A891F2AE95500A98F5F /* Frameworks */,
 				22366A8A1F2AE95500A98F5F /* Resources */,
+				303BFAC879A321BB43B11BA1 /* [CP] Embed Pods Frameworks */,
+				B4A24A219942D35EE8155AF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,7 +308,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				22366A7B1F2AE95500A98F5F /* LaunchScreen.storyboard in Resources */,
+				22366AA81F2AEFA100A98F5F /* Meowing-sound.wav in Resources */,
+				22366A9F1F2AEBC400A98F5F /* Grumpy Cat.jpg in Resources */,
+				22366AA51F2AEFA100A98F5F /* Cat-noises.mp3 in Resources */,
+				22366AA71F2AEFA100A98F5F /* Kitty-noises.mp3 in Resources */,
 				22366A781F2AE95500A98F5F /* Assets.xcassets in Resources */,
+				22366AA61F2AEFA100A98F5F /* Cute-kitty-meowing.mp3 in Resources */,
 				22366A731F2AE95500A98F5F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +333,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		303BFAC879A321BB43B11BA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purring CatsUITests/Pods-Purring CatsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35B3F5B917834FA86D2F648C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purring CatsTests/Pods-Purring CatsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54CFB29E949AEA91CA08E7C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purring Cats/Pods-Purring Cats-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBF920A4BB62093F61D9C55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E31BE043B9C4F543BEB4790 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F516CF06C7AB82CAB494BC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2DB086D458EE0D6F8E59973 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purring Cats/Pods-Purring Cats-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4A24A219942D35EE8155AF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purring CatsUITests/Pods-Purring CatsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE4F40D4E23AEADE2E97C1B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purring CatsTests/Pods-Purring CatsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22366A661F2AE95500A98F5F /* Sources */ = {
@@ -416,6 +631,7 @@
 		};
 		22366A961F2AE95500A98F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43447D61BC0233B6F294ADAD /* Pods-Purring Cats.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Purring Cats/Info.plist";
@@ -428,6 +644,7 @@
 		};
 		22366A971F2AE95500A98F5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED952C81E51F2C3E954F84E /* Pods-Purring Cats.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Purring Cats/Info.plist";
@@ -440,6 +657,7 @@
 		};
 		22366A991F2AE95500A98F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECB984B04B1179C5688ADE83 /* Pods-Purring CatsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +672,7 @@
 		};
 		22366A9A1F2AE95500A98F5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC480F20F21D5EB1B09E37E5 /* Pods-Purring CatsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +687,7 @@
 		};
 		22366A9C1F2AE95500A98F5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8A4FD971300EB8C6025A44 /* Pods-Purring CatsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Purring CatsUITests/Info.plist";
@@ -481,6 +701,7 @@
 		};
 		22366A9D1F2AE95500A98F5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2092A85EFAE1CAF2E5727A1 /* Pods-Purring CatsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Purring CatsUITests/Info.plist";

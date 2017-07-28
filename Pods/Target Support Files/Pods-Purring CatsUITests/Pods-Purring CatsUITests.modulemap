@@ -1,0 +1,6 @@
+framework module Pods_Purring_CatsUITests {
+  umbrella header "Pods-Purring CatsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
