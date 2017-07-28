@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import SwiftySound
 
 class ViewController: UIViewController {
 
@@ -15,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let tap: UITapGestureRecognizer =  UITapGestureRecognizer(target: self, action: "meow")
+        let tap: UITapGestureRecognizer =  UITapGestureRecognizer(target: self, action: #selector(ViewController.meow))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
     }
@@ -25,61 +26,13 @@ class ViewController: UIViewController {
         
         let number = arc4random_uniform(4)
         if number == 0 {
-            let path = Bundle.main.path(forResource: "Cat-noises", ofType: "mp3")!
-            let url = URL(fileURLWithPath: path)
-            
-            do {
-                player = try AVAudioPlayer(contentsOf: url)
-                guard let player = player else {return}
-                
-                player.prepareToPlay()
-                player.play()
-                print ("0")
-            } catch {
-                return
-            }
+            Sound.play(file: "Cat-noises.mp3")
         } else if number == 1 {
-            let path = Bundle.main.path(forResource: "Cute-kitty-meowing", ofType: "mp3")!
-            let url = URL(fileURLWithPath: path)
-            
-            do {
-                player = try AVAudioPlayer(contentsOf: url)
-                guard let player = player else {return}
-                
-                player.prepareToPlay()
-                player.play()
-                print ("1")
-            } catch {
-                return
-            }
+            Sound.play(file: "Cute-kitty-meowing.mp3")
         } else if number == 2 {
-            let path = Bundle.main.path(forResource: "Kitty-noises.mp3", ofType: nil)!
-            let url = URL(fileURLWithPath: path)
-            
-            do {
-                player = try AVAudioPlayer(contentsOf: url)
-                guard let player = player else {return}
-                
-                player.prepareToPlay()
-                player.play()
-                print ("2")
-            } catch {
-                return
-            }
+            Sound.play(file: "Kitty-noises.mp3")
         } else {
-            let path = Bundle.main.path(forResource: "Meowing-sound.wav", ofType: nil)!
-            let url = URL(fileURLWithPath: path)
-            
-            do {
-                player = try AVAudioPlayer(contentsOf: url)
-                guard let player = player else {return}
-                
-                player.prepareToPlay()
-                player.play()
-                print ("3")
-            } catch {
-                return
-            }
+            Sound.play(file: "Meowing-sound.wav")
         }
     }
     
